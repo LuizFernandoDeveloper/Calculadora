@@ -83,7 +83,7 @@
     margin-right: 59px;
 }
 
-#btn-ponto, #btn-eight, #btn-four{
+#btn-dot, #btn-eight, #btn-four{
     margin: 0px ;
     margin-right: 0px;
 }
@@ -97,7 +97,7 @@
     width: 125px;
     height: 100px;
     margin: 0px;
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
 .calculator-shape button:active{
