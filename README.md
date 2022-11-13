@@ -4,9 +4,9 @@
 1. Tela inicia, que contem a aplicação calculadora. Nessa tela podemos ver a calculadora e as três barras que são nosso menu.
 ![App calculadora](/images-for-readme/index.html.svg)
     - Quando clicamos nas três barras podemos ver o menu se expandir.
-    ![App calculadora](/images-for-readme/index2-on-menu.svg)
+    ![App calculadora](/images-for-readme/index2.html.svg)
 2. Clicando no link com o nome de Historico da calculadora podemos ver algumas operaçoes feitas anteriosmente pelo usuario.
-![App calculadora](/images-for-readme/index2.html.svg)
+![App calculadora](/images-for-readme/historico-off-menu.svg)
 3. Clicando no link com o nome contato você podera ver minhas redes sociais e entra em contato comigo.
 ![App calculadora](/images-for-readme/contatos-off-menu.svg)
 
