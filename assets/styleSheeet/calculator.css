@@ -11,7 +11,6 @@
 }
 
 .screen{
-    
     background-color: #A5A692;
     width: 650px;
     height: 120px;
@@ -20,10 +19,14 @@
     border-radius: 20px;
     text-indent: 2px;
     display: flex;
-
 }
 
-
+.screen span{
+    vertical-align: 10px;
+    position: relative; top: 10px;
+    display: inline-block; 
+    margin-top: 5px;
+}
 
 .screen .number{
     color: white;
@@ -34,4 +37,63 @@
     color: #F2A71B;
     font-size: 95px;
 }
+
+#CC{
+    background-color: #F2A71B;
+    width: 160px;
+    height: 100px;
+    border-radius: 15px;
+    margin-top: 43px;
+    margin-left: 46px;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    border: none;
+}
+
+.line, #line-operator{
+    width: 651px;
+    height: 100px;
+    margin-left: 60px;
+    margin-top: 38px;
+}
+
+#line-operator button, .line button{
+    background-color: #F2A71B;
+    width: 100px;
+    height: 100px;
+    color: white ;
+    font-size: 100px;
+    border-radius: 15px;
+    border: none ;
+    margin-right: 59px;
+}
+
+.last-button{
+    margin: 0px ;
+}
+
+.line button{
+    background-color: #BFB78F ;
+}
+
+#equal{
+    background-color: #F2A71B;
+    width: 125px;
+    height: 100px;
+    margin: 0px;
+}
+
+.calculator-shape button:active{
+    transform: translateY(4px);
+    box-shadow: 7px 6px 28px 1px rgba(255, 255, 255, 0.24);
+}
+
+.calculator-shape button{
+    
+    /* configurar o texto para que fique no centro do botão
+    configuração generica.*/
+    
+}
+
 

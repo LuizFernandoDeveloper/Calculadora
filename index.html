@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    
+    <!--Adding icon nav bar from  the browser-->
+    <link rel="shortcut icon" href="./assets/images/logo.svg" type="image/x-icon">
+    
     <!--Adding style sheet reset.css-->
     <link rel="stylesheet" href="./assets/styleSheeet/reset.css">
 
@@ -26,23 +29,48 @@
 
 </head>
 <body>
-<header>
-    <nav>
-        <div class="clogo">
-            <img src="./assets/images/logo.svg" alt="logo">
+    <header>
+        <nav>
+            <div class="clogo">
+                <img src="./assets/images/logo.svg" alt="logo">
+            </div>
+            <div class="menu">
+                <img src="./assets/images/menu.svg" alt="Icone menu">
+            </div>
+        </nav>
+        <a href="./historic.html">dawdwa</a>
+    </header>
+    <main>
+        <div class="calculator-shape">
+            <div class="screen">
+                <span class="number">1</span><span class="operator">*</span><span class="number">5</span><span class="operator">=</span><span class="number">5</span></span>
+            </div>
+            <button id="CC" value="CC">CC</button>
+            <div id="line-operator">
+                <button value="/">/</button>
+                <button value="X">X</button>
+                <button value="-">-</button>
+                <button class="last-button" value="+">+</button>
+            </div>
+            <div class="line">
+                <button value="1">1</button>
+                <button value="2">2</button>
+                <button value="3">3</button>
+                <button class="last-button" value="4">4</button>
+            </div>
+            <div class="line">
+                <button value="5">5</button>
+                <button value="6">6</button>
+                <button value="7">7</button>
+                <button class="last-button" value="8">8</button>
+            </div>
+            <div class="line">
+                <button value="9">9</button>
+                <button value="0">0</button>
+                <button class="last-button" value=".">.</button>
+                <button id="equal" value="=">=</button>
+            </div>
         </div>
-        <div class="menu">
-            <img src="./assets/images/menu.svg" alt="Icone menu">
-        </div>
-    </nav>
-</header>
-<main>
-    <div class="calculator-shape">
-        <div class="screen">
-            <span><span class="number">1</span><span class="operator">*</span><span class="number">5</span><span class="operator">=</span><span class="number">5</span></span>
-        </div>
-
-    </div>
-</main>
+    </main>
 </body>
 </html>
