@@ -83,8 +83,9 @@
     margin-right: 59px;
 }
 
-.last-button{
+#btn-ponto, #btn-eight, #btn-four{
     margin: 0px ;
+    margin-right: 0px;
 }
 
 .line button{
@@ -96,7 +97,7 @@
     width: 125px;
     height: 100px;
     margin: 0px;
-    margin-left: -18px;
+    margin-left: 40px;
 }
 
 .calculator-shape button:active{
