@@ -21,11 +21,18 @@
     display: flex;
 }
 
-.screen span{
+.screen span, .calculator-shape button span{
     vertical-align: 10px;
     position: relative; top: 10px;
     display: inline-block; 
     margin-top: 5px;
+}
+
+.calculator-shape button span {
+    vertical-align: 2px;
+    position: relative; 
+    top: -14px;
+    display: inline-block; 
 }
 
 .screen .number{
@@ -49,6 +56,13 @@
     text-align: center;
     color: white;
     border: none;
+}
+
+#CC span {
+    vertical-align: 10Spx;
+    position: relative; 
+    top: -15px;
+    display: inline-block; 
 }
 
 .line, #line-operator{
@@ -89,11 +103,6 @@
     box-shadow: 7px 6px 28px 1px rgba(255, 255, 255, 0.24);
 }
 
-.calculator-shape button{
-    
-    /* configurar o texto para que fique no centro do botão
-    configuração generica.*/
-    
-}
+
 
 
