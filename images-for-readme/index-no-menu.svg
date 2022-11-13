@@ -1,5 +1,7 @@
 <svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_3_2)">
+<rect width="1920" height="1080" fill="#025E73"/>
+<rect width="1920" height="1080" fill="black" fill-opacity="0.2"/>
 <rect x="610" y="90" width="700" height="900" rx="30" fill="#011F26"/>
 <rect x="610" y="90" width="700" height="900" rx="30" fill="black" fill-opacity="0.2"/>
 <rect x="637" y="135" width="646" height="116" rx="18" fill="#A5A692"/>

@@ -1,8 +1,8 @@
 # Projeto calculadora
-![App calculadora](/images-for-readme/index-no-menu.svg)
+![App calculadora](/images-for-readme/index.html.svg)
 ## Essa aplicação é constituida de três paginas:
 1. Tela inicia, que contem a aplicação calculadora. Nessa tela podemos ver a calculadora e as três barras que são nosso menu.
-![App calculadora](/images-for-readme/index-no-menu.svg)
+![App calculadora](/images-for-readme/index.html.svg)
     - Quando clicamos nas três barras podemos ver o menu se expandir.
     ![App calculadora](/images-for-readme/index2-on-menu.svg)
 2. Clicando no link com o nome de Historico da calculadora podemos ver algumas operaçoes feitas anteriosmente pelo usuario.
