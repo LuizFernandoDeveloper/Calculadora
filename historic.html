@@ -11,19 +11,33 @@
     <!--Adding style sheet root.css-->
     <link rel="stylesheet" href="./assets/styleSheeet/root.css">
     <!--Adding style sheet navigation bar-->
-    <link rel="stylesheet" href="./assets/styleSheeet/navigation-bar.css">
+    <link rel="preload" href="./assets/styleSheeet/navigation-bar.css" as="style">
+    <link rel="stylesheet" href="/assets/styleSheeet/navigation-bar.css">
     <!--Adding style sheet shape-history-->
     <link rel="stylesheet" href="./assets/styleSheeet/shape-history.css">
+
+    <!--Adding javascript animation menu preload-->
+    <link rel="preload" href="./assets/javascript/menu.js" as="script">
+
     <title>Historico da calculadora</title>
+
 </head>
 <body>
-    <header>
+    <header class="cabecalho">
         <nav>
             <div class="clogo">
                 <img src="./assets/images/logo.svg" alt="logo">
             </div>
-            <div class="menu">
-                <img src="./assets/images/menu.svg" alt="Icone menu">
+            <div id="menu" >
+                <img src="./assets/images/menu.svg" alt="Icone menu" id="menu">
+            </div>
+            <div class="links">
+                <div>
+                    <a href="/index.html"><span>Ver calculadora</span></a>
+                </div>
+                <div>
+                    <a href="/contact.html"><span>Contato</span></a>
+                </div>
             </div>
         </nav>
     </header>
@@ -71,5 +85,6 @@
             </div>
         </div>
     </main>
+    <script src="/assets/javascript/menu.js"></script>
 </body>
 </html>

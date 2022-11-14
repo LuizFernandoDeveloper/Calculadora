@@ -1,13 +1,14 @@
+
 .contact-me, .content-one, .content-two{
     border: 3px solid #BFB78F;
 }
 .contact-me{
     width: 1039px;
-    height: 99vh;
+    height: 99.4vh;
     background-color: #011F26;
     float: left;
     margin-left: 500px;
-    margin-top: -207px;
+    margin-top: -210px;
     border-radius: 60px;
 }
 
@@ -36,6 +37,8 @@
     margin-right: auto;
     align-content: space-between;
     margin-bottom: 13px;
+    display: grid;
+    gap: 15px;
 }
 
 .content-two{

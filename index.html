@@ -15,8 +15,11 @@
     <link rel="stylesheet" href="./assets/styleSheeet/root.css">
 
     <!--Adding style sheet navigation bar-->
-    <link rel="stylesheet" href="./assets/styleSheeet/navigation-bar.css">
-
+    <link rel="preload" href="./assets/styleSheeet/navigation-bar.css" as="style">
+    <link rel="stylesheet" href="/assets/styleSheeet/navigation-bar.css">
+    <!--Adding javascript animation menu preload-->
+    <link rel="preload" href="./assets/javascript/menu.js" as="script">
+    
     <!--Adding style sheet calculator.css-->
     <link rel="stylesheet" href="./assets/styleSheeet/calculator.css">
     
@@ -29,16 +32,23 @@
 
 </head>
 <body>
-    <header>
+    <header class="cabecalho">
         <nav>
             <div class="clogo">
                 <img src="./assets/images/logo.svg" alt="logo">
             </div>
-            <div class="menu">
-                <img src="./assets/images/menu.svg" alt="Icone menu">
+            <div id="menu" >
+                <img src="./assets/images/menu.svg" alt="Icone menu" id="menu">
+            </div>
+            <div class="links">
+                <div>
+                    <a href="/historic.html"><span>Historico da Calculadora</span></a>
+                </div>
+                <div>
+                    <a href="/contact.html"><span>Contato</span></a>
+                </div>
             </div>
         </nav>
-        <a href="./historic.html">dawdwa</a>
     </header>
     <main>
         <div class="calculator-shape">
@@ -72,5 +82,6 @@
             </div>
         </div>
     </main>
+    <script src="/assets/javascript/menu.js"></script>
 </body>
 </html>

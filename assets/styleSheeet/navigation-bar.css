@@ -6,6 +6,8 @@ header{
     overflow: hidden;
     padding: 15px;
 }
+
+
 nav{
     display: flex;
 }
@@ -21,7 +23,49 @@ nav{
     height: 100%;
 }
 
-.menu{
+#menu{
     margin-left: 55px;
     margin-top: 37px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+#menu img:active{
+    transform: translateY(4px);
+    box-shadow: 7px 6px 28px 1px rgba (255, 255, 255, 0.24);
+}
+
+
+
+.links{
+    position: fixed;
+    margin-top: 220px;
+    left: 30px;
+    display: none;
+}
+
+.links div a {
+    transition: background .3s;
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+}
+
+.links div{
+    margin-top: 10px;
+    border-bottom: 2px solid #F2A71B;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.links div:hover{
+
+    background-color: #F2A71B;
+    color: white;
+    border-radius: 10px;
+}
+
+.links div:active{
+    transform: translateY(4px);
+    box-shadow: 7px 6px 28px 1px rgba (255, 255, 255, 0.24);
 }
