@@ -3,6 +3,8 @@ const menu = document.getElementById('menu')
 let memory = 0;
 
 
+let arrayButtons = [];
+alert(arrayButtons[0])
 
 menu.addEventListener('click', function(e){ 
 
