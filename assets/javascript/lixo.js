@@ -210,3 +210,84 @@ function addingButtonValue(btnValue){
         }
     }while(finish = 0);
 }
+
+
+
+
+for(let i = 0 ; i <  arrayButtons.length; i++){
+    if(arrayButtons[i] == '/' || arrayButtons[i] == 'X' || arrayButtons[i] == '-' || arrayButtons[i] == '+'){
+        arrayMemory[memory] = i;
+        memory ++;
+        if(typeof(arrayButtons[arrayMemory[memory + 1]]) != "number"){
+            reference = true;
+        };
+    };
+    
+};
+if(reference == false){
+    for(let i = 0; i < memory; i--){
+        if(i = 0 ?)
+        switch(arrayButtons[arrayMemory[i]]){
+            case 'X':
+                
+                break;
+            case '/':
+                
+                break;
+            case '+':
+                
+                break;
+            case '-':
+                
+                break;
+        };
+    };
+};
+
+
+
+
+};
+
+function OperatorManager(){
+
+let reference = true;
+
+switch(arrayButtons[0]){
+    case '/':
+        alert(`você digitou isso:${arrayButtons[0]}.Você não pode digitar um operador sem antes digitar  um numero`);
+        reference = false;
+        break;
+    case 'X':
+        alert(`você digitou isso:${arrayButtons[0]}.Você não pode digitar um operador sem antes digitar  um numero`);
+        reference = false;
+        break;
+    case '-':
+        alert(`você digitou isso:${arrayButtons[0]}.Você não pode digitar um operador sem antes digitar  um numero`);
+        reference = false;
+        break;
+    case '+':
+        alert(`você digitou isso:${arrayButtons[0]}.Você não pode digitar um operador sem antes digitar  um numero`);
+        reference = false;
+        break;
+};
+if(reference == true){
+    let memory = 0;
+    let arrayMemory = [];
+
+    for(let i = 0; i < arrayButtons.length; i++){
+        if(arrayButtons[i] == '/' || arrayButtons[i] == 'X' || arrayButtons[i] == '-' || arrayButtons[i] == '+'){
+            arrayMemory[memory] = arrayButtons[i];
+            memory ++;
+        };
+    };
+    for(let i = memory; i > memory; i --){
+        if(arrayButtons[arrayMemory[memory] - 1] == '/' || arrayButtons[arrayMemory[memory] - 1] == 'X' || arrayButtons[arrayMemory[memory] - 1] == '-' || arrayButtons[arrayMemory[memory] - 1] == '+'){
+            alert(`você digitou isso:${arrayButtons[0]}.Você não pode digitar um operador sem antes digitar  um numero`);
+            reference = false;
+        }
+        memory --;
+    };
+};
+return reference;
+};

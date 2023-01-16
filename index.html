@@ -32,56 +32,42 @@
 
 </head>
 <body>
-    <header class="cabecalho">
-        <nav>
-            <div class="clogo">
-                <img src="./assets/images/logo.svg" alt="logo">
-            </div>
-            <div id="menu" >
-                <img src="./assets/images/menu.svg" alt="Icone menu" id="menu">
-            </div>
-            <div class="links">
-                <div>
-                    <a href="/historic.html"><span>Historico da Calculadora</span></a>
-                </div>
-                <div>
-                    <a href="/contact.html"><span>Contato</span></a>
-                </div>
-            </div>
-        </nav>
-    </header>
     <main>
-        <div class="calculator-shape">
-            <div class="screen">
-                <span class="number">1</span><span class="operator">*</span><span class="number">5</span><span class="operator">=</span><span class="number">5</span></span>
-            </div>
-            <button id="CC" value="CC"><span> CC </span></button>
-            <div id="line-operator">
-                <button id="division" value="/">  <span> / </span>    </button>
-                <button id="multiplication"  value="X">  <span> X </span>    </button>
-                <button id="subtraction" value="-">  <span class="conf-span-special" > - </span>    </button>
-                <button id="addition" value="+">     <span> + </span>    </button>
-            </div>
-            <div class="line">
-                <button id="btn-one"    value="1">  <span> 1 </span>    </button>
-                <button id="btn-two"    value="2">  <span> 2 </span>    </button>
-                <button id="btn-three"  value="3">  <span> 3 </span>    </button>
-                <button id="btn-four"   value="4">  <span> 4 </span>    </button>
-            </div>
-            <div class="line">
-                <button id="btn-five"   value="5">  <span> 5 </span>    </button>
-                <button id="btn-six"    value="6">  <span> 6 </span>    </button>
-                <button id="btn-seven"  value="7">  <span> 7 </span>    </button>
-                <button id="btn-eight"  value="8">  <span> 8 </span>    </button>
-            </div>
-            <div class="line">
-                <button id="btn-nine"   value="9">  <span> 9 </span>    </button>
-                <button id="btn-zero"   value="0">  <span> 0 </span>    </button>
-                <button id="btn-dot"    value=".">  <span> . </span>    </button>
-                <button id="equal"      value="=">  <span> = </span>    </button>
+        <div class="container">
+            <div class="calculator-shape">
+                <div class="screen">
+                    <span class="number" id="screen-number"></span>
+                </div>
+                <button id="CC" value="CC" onclick="btnCC()"><span> CC </span></button>
+                <button id="historico" value="historico" onclick="pageHistorico()">Historico</button>
+                <div id="line-operator">
+                    <button id="division" value="/" onclick="btnDividir()">  <span> / </span>    </button>
+                    <button id="multiplication"  value="X" onclick="btnMultiplicar()">  <span> X </span>    </button>
+                    <button id="subtraction" value="-" onclick="btnSubtrair()" >  <span class="conf-span-special" > - </span>    </button>
+                    <button id="addition" value="+" onclick="btnSomar()">     <span> + </span>    </button>
+                </div>
+                <div class="line">
+                    <button id="btn-one"    value="1" onclick="btnNumberOne()">  <span> 1 </span>    </button>
+                    <button id="btn-two"    value="2" onclick="btnNumberTwo()">  <span> 2 </span>    </button>
+                    <button id="btn-three"  value="3" onclick="btnNumberThree()">  <span> 3 </span>    </button>
+                    <button id="btn-four"   value="4" onclick="btnNumberFour()">  <span> 4 </span>    </button>
+                </div>
+                <div class="line">
+                    <button id="btn-five"   value="5" onclick="btnNumberFive()">  <span> 5 </span>    </button>
+                    <button id="btn-six"    value="6" onclick="btnNumberSix()">  <span> 6 </span>    </button>
+                    <button id="btn-seven"  value="7" onclick="btnNumberSeven()">  <span> 7 </span>    </button>
+                    <button id="btn-eight"  value="8" onclick="btnNumberEight()">  <span> 8 </span>    </button>
+                </div>
+                <div class="line">
+                    <button id="btn-nine"   value="9" onclick="btnNumberNine()">  <span> 9 </span>    </button>
+                    <button id="btn-zero"   value="0" onclick=" btnNumberZero()">  <span> 0 </span>    </button>
+                    <button id="btn-dot"    value="." onclick="btnDot()">  <span> . </span>    </button>
+                    <button id="equal"      value="=" onclick="btnequals()">  <span> = </span>    </button>
+                </div>
             </div>
         </div>
     </main>
-    <script src="/assets/javascript/menu.js"></script>
+    <script src="/assets/javascript/main.js"></script>
+    <script src="/assets/javascript/calculator.js"></script>
 </body>
 </html>

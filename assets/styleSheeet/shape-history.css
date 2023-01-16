@@ -1,12 +1,26 @@
+#calculadora{
+    background-color: #F2A71B;
+    width: auto;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    border: none;
+}
+button:active{
+    transform: translateY(4px);
+    box-shadow: 7px 6px 28px 1px rgba(255, 255, 255, 0.24);
+}
+
 #shape-history{
-    width: 900px;
+    width: 100vw;
     height: 900px;
     background-color: #011F26;
-    border-radius: 40px;
-    float: left;
+    border-radius: 5px;
     text-align: center;
-    margin-left: 510px;
-    margin-top: -150px;
+    margin-left: auto;
+    margin-right: auto;
     overflow: hidden;
 }
 
@@ -14,7 +28,7 @@
     overflow-y: auto;
     height: 600px;
     margin-bottom: 90px;
-    width: 650px;
+    width: 90vw;
     margin-left: auto;
     margin-right: auto;
 }
@@ -59,7 +73,7 @@ h1 span {
 
 .history-line{
     border-bottom: 2px solid #A5A692;
-    width: 600px;
+    width: 80vw;
     height: 44px;
     color: white;
     align-items: center;
