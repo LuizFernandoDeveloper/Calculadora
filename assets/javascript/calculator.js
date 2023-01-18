@@ -85,9 +85,7 @@ function btnDot(){
 function btnequals(){
     let resultado  = eval(numeros);
     ScreenNumber.innerHTML = resultado;
-    ScroolHistory.innerHTML += `<div class="history-line">
-    <span>${numeros} = ${resultado}</span>
-</div>`
+    ScroolHistory.innerHTML += `<div class="history-line"><span>${numeros} = ${resultado}</span></div>`
 }
 
 

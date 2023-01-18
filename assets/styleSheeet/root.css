@@ -2,6 +2,8 @@ body{
 
     background-color: #025E73;
     font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+    overflow-y: scroll;
 }
 .container{
     width: 100vw;

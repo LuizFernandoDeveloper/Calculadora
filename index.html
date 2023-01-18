@@ -28,13 +28,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="./assets/styleSheeet/shape-history.css">
+
     <title>Calculadora</title>
 
 </head>
 <body>
     <main>
         <div class="container">
-            <div class="calculator-shape">
+            <div class="calculator-shape" id="cal">
                 <div class="screen">
                     <span class="number" id="screen-number"></span>
                 </div>
@@ -65,6 +67,16 @@
                     <button id="equal"      value="=" onclick="btnequals()">  <span> = </span>    </button>
                 </div>
             </div>
+        </div>
+        <div id="hist">
+            <div id="shape-history">
+                
+                <h1><span>Historico de Calculos</span> </h1>
+                <button id="calculadora" value="calculadora" onclick="pageCalculadora()">Voltar para Calculadora</button>
+            <div id="scroll-history">
+                
+            </div>
+        </div>
         </div>
     </main>
     <script src="/assets/javascript/main.js"></script>

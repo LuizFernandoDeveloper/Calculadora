@@ -7,14 +7,16 @@
     margin-right: auto;
     box-shadow: -40px 40px 50px #011f26;
     border:  solid 1px  #A5A692 ;
+    
 }
 
 .screen{
     background-color: #A5A692;
-    width: 650px;
-    height: 120px;
+    width: 90%;
+    height: 13%;
     margin-top: 43px;
-    margin-left: 25px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 20px;
     text-indent: 2px;
     display: flex;
@@ -117,6 +119,124 @@
     box-shadow: 7px 6px 28px 1px rgba(255, 255, 255, 0.24);
 }
 
+@media (max-width: 400px){
+
+    .calculator-shape{
+        background-color: #011F26;
+        width: 100vw;
+        height: 90vh;
+        border-radius: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: -40px 40px 50px #011f26;
+        border:  solid 1px  #A5A692 ;
+        
+    }
+    
+    .screen{
+        background-color: #A5A692;
+        width: 90%;
+        height: 13%;
+        margin-top: 43px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+        text-indent: 2px;
+        display: flex;
+    }
+    
+    .screen span, .calculator-shape button span{
+        vertical-align: 10px;
+        position: relative; top: 10px;
+        display: inline-block; 
+        margin-top: 5px;
+    }
+    
+    .calculator-shape button span {
+        vertical-align: 2px;
+        position: relative; 
+        top: -14px;
+        display: inline-block; 
+    }
+    
+    .screen .number{
+        color: white;
+        font-size: 400%;
+    }
+    
+    .screen .operator{
+        color: #F2A71B;
+        font-size: 95px;
+    }
+    
+    #historico{
+        background-color: #F2A71B;
+        width: auto;
+        height: 100px;
+        border-radius: 15px;
+        margin-top: 43px;
+        margin-left: 60px;
+        font-size: 100px;
+        text-align: center;
+        color: white;
+        border: none;
+    }
+    
+    #CC{
+        background-color: #F2A71B;
+        width: 160px;
+        height: 100px;
+        border-radius: 15px;
+        margin-top: 43px;
+        margin-left: 60px;
+        font-size: 100px;
+        text-align: center;
+        color: white;
+        border: none;
+    }
+    
+    #CC span {
+        vertical-align: 10Spx;
+        position: relative; 
+        top: -15px;
+        display: inline-block; 
+    }
+    
+    .line, #line-operator{
+        width: 651px;
+        height: 100px;
+        margin-left: 60px;
+        margin-top: 38px;
+    }
+    
+    #line-operator button, .line button{
+        background-color: #F2A71B;
+        width: 100px;
+        height: 100px;
+        color: white ;
+        font-size: 100px;
+        border-radius: 15px;
+        border: none ;
+        margin-right: 59px;
+    }
+    
+    #btn-dot, #btn-eight, #btn-four{
+        margin: 0px ;
+        margin-right: 0px;
+    }
+    
+    .line button{
+        background-color: #BFB78F ;
+    }
+    
+    #equal{
+        background-color: #F2A71B;
+        width: 125px;
+        height: 100px;
+        margin: 0px;
+        margin-left: 30px;
+    }
+}
 
 
 
